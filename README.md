@@ -6,7 +6,7 @@
 
 ## 📚 文章列表
 
-### [2025年 全平台Clash客户端下载配置新手教程：Clash Verge 最全图文指南](https://frostwyrmknight.github.io/bypassGFW/articles/clash-tutorial/)
+### [2025年 全平台Clash客户端下载配置新手教程：Clash系列 最全图文指南](https://frostwyrmknight.github.io/bypassGFW/articles/clash-tutorial/)
 
 完整的 Clash 系列客户端 安装和配置教程。
 
