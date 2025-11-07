@@ -6,14 +6,14 @@
 
 ## 📚 文章列表
 
-### [2025年 Clash for Windows 新手教程：Clash Verge 最全图文指南](https://frostwyrmknight.github.io/bypassGFW/articles/clash-tutorial/)
+### [2025年 全平台Clash客户端下载配置新手教程：Clash Verge 最全图文指南](https://frostwyrmknight.github.io/bypassGFW/articles/clash-tutorial/)
 
-完整的 Clash Verge 安装和配置教程。
+完整的 Clash 系列客户端 安装和配置教程。
 
 **核心内容包括：**
 
 - **Clash 是什么？** - 了解工具与燃料的区别
-- **下载与安装** - 完整的 Windows 安装步骤
+- **下载与安装** - 完整的 Windows 及其他平台安装步骤
 - **导入订阅** - 如何获取和导入 VPN 订阅链接
 - **代理配置** - Rule / Global / Direct 模式详解
 - **常见问题** - 遇到问题的解决方案
