@@ -155,45 +155,40 @@
     <th>平台</th>
     <th>推荐客户端</th>
     <th>适配特点</th>
-    <th>难度</th>
-    <th>适合人群</th>
+    <th>下载/获取 (官方)</th>
   </tr>
   <tr>
     <td><strong>Windows</strong></td>
     <td>Clash Verge</td>
     <td>GUI 完整、系统代理稳定</td>
-    <td>低</td>
-    <td>新手/办公主力</td>
+    <td><a href="https://github.com/Meta-Repo/clash-meta/releases" target="_blank" rel="noopener noreferrer">GitHub Releases</a></td>
   </tr>
   <tr>
     <td><strong>macOS</strong></td>
     <td>Clash Verge 或 ClashX</td>
     <td>菜单栏便捷、规则切换快</td>
-    <td>低-中</td>
-    <td>Mac 用户、开发者</td>
+    <td><a href="https://github.com/Meta-Repo/clash-meta/releases" target="_blank" rel="noopener noreferrer">Clash Verge</a> / <a href="https://github.com/yichengchen/clashX/releases" target="_blank" rel="noopener noreferrer">ClashX</a></td>
   </tr>
   <tr>
     <td><strong>Android</strong></td>
-    <td>Clash Meta for Android (ClashMeta)</td>
+    <td>Clash Meta for Android</td>
     <td>分应用代理、后台稳定</td>
-    <td>中</td>
-    <td>移动主力、分流需求</td>
+    <td><a href="https://github.com/Meta-Fam/ClashMetaForAndroid/releases" target="_blank" rel="noopener noreferrer">GitHub Releases</a></td>
   </tr>
   <tr>
     <td><strong>iOS/iPadOS</strong></td>
-    <td>Stash 或 Shadowrocket</td>
-    <td>规则强、连接稳定（付费）</td>
-    <td>中</td>
-    <td>苹果移动用户</td>
+    <td>ClashMi (免费推荐)</td>
+    <td>基于 Meta 核心、界面友好</td>
+    <td><a href="https://apps.apple.com/us/app/clashmi/id6466996615" target="_blank" rel="noopener noreferrer">App Store</a> (需外区ID)</td>
   </tr>
   <tr>
     <td><strong>Linux</strong></td>
-    <td>Clash Verge (AppImage) 或命令行</td>
+    <td>Clash Verge (AppImage)</td>
     <td>可系统级或仅终端代理</td>
-    <td>中-高</td>
-    <td>服务器/开发者</td>
+    <td><a href="https://github.com/Meta-Repo/clash-meta/releases" target="_blank" rel="noopener noreferrer">GitHub Releases</a></td>
   </tr>
 </table>
+            
             <!-- Windows 教程 -->
             <h2>4️⃣  Windows 教程 下载与安装 Clash Verge</h2>
             <p>由于原版 <code>Clash for Windows</code> 已停止更新，<code>Clash Verge</code> 是目前公认的最佳替代品。</p>
@@ -227,6 +222,11 @@
             
             <h3>步骤 3：安装</h3>
             <p>下载后，双击 <code>.msi</code> 文件。和安装普通软件一样，一路点击"下一步"即可完成。安装完成后，Clash Verge 会自动运行，并在您电脑右下角的"任务栏"中显示一个图标。</p>
+
+            <figure class="figure text-center my-3">
+    <img src="" class="figure-img img-fluid rounded shadow-sm" alt="Clash Verge Windows 客户端截图">
+    <figcaption class="figure-caption">Clash Verge (Windows) 的 "Profiles" 导入界面 (示例)</figcaption>
+</figure>
             
             <h2>5️⃣ 导入"订阅链接"（给跑车加油）</h2>
             <p>这是最关键的一步。您需要从您的服务商那里获得"订阅链接"。</p>
@@ -275,6 +275,10 @@
   <li><strong>选择模式：</strong>Proxies → <strong>Mode: Rule</strong>（推荐）。</li>
 </ul>
 
+  <figure class="figure text-center my-3">
+    <img src="" class="figure-img img-fluid rounded shadow-sm" alt="Clash Verge macOS 客户端截图" style="max-height: 400px;">
+    <figcaption class="figure-caption">Clash Verge (macOS) 的菜单栏界面 (示例)</figcaption>
+</figure>          
 
 <h3>常见问题（macOS）</h3>
 <ul>
@@ -303,7 +307,11 @@
   <li><strong>分应用代理：</strong>进入 <strong>Rules/Bypass</strong> 或 <strong>Per-App</strong>，给国内 App 设为直连，国际 App 走代理。</li>
 </ul>
 
-
+<figure class="figure text-center my-3">
+    <img src="" class="figure-img img-fluid rounded shadow-sm" alt="Clash Meta for Android 客户端截图" style="max-height: 500px;">
+    <figcaption class="figure-caption">Clash Meta (Android) 的主界面 (示例)</figcaption>
+</figure>
+            
 <h3>常见问题（Android）</h3>
 <ul>
   <li><strong>后台被杀：</strong>在系统“电池优化”中允许后台运行，锁定任务卡片。</li>
@@ -311,20 +319,33 @@
 </ul>
 
 <!-- iOS/iPadOS 教程 -->
-<h2>8️⃣ iOS/iPadOS 教程：Stash 或 Shadowrocket</h2>
+<h2>8️⃣ iOS/iPadOS 教程：ClashMi (推荐)</h2>
+<p>在 iOS 平台，由于系统限制，Clash 客户端都需要通过 App Store 下载。<code>ClashMi</code> 是一个基于 Clash Meta 核心的新兴免费客户端，功能强大，非常推荐。</p>
+
 <h3>步骤 1：App 获取</h3>
 <ul>
-  <li><strong>Stash：</strong>在 App Store 购买并安装。</li>
-  <li><strong>Shadowrocket：</strong>部分地区商店上架（付费），安装后可用。</li>
+  <li><strong>ClashMi (免费推荐)：</strong>在美区或其他地区 App Store 搜索 "ClashMi" 下载。<br>
+      <a href="https://apps.apple.com/us/app/clashmi/id6466996615" target="_blank" rel="noopener noreferrer">→ 点击跳转到 App Store (ClashMi)</a>
+  </li>
+  <li><strong>Stash / Shadowrocket (付费)：</strong>功能更全面，但需要付费购买。您也可以在 App Store 搜索 "Stash" 或 "Shadowrocket"。<br>
+      <a href="https://apps.apple.com/us/app/stash/id1596063349" target="_blank" rel="noopener noreferrer">→ Stash (App Store)</a> | 
+      <a href="https://apps.apple.com/us/app/shadowrocket/id932747118" target="_blank" rel="noopener noreferrer">→ Shadowrocket (App Store)</a>
+  </li>
 </ul>
-
+<p>⚠️ <strong>注意：</strong>以上所有 App 均需使用**非中国大陆地区**的 Apple ID 才能在 App Store 搜索和下载。</p>
 
 <h3>步骤 2：导入订阅与启用</h3>
 <ol>
-  <li>打开 App → <strong>Subscriptions/配置</strong> → 添加 <strong>URL</strong>。</li>
-  <li>选择 <strong>Rule</strong> 模式，首次连接会提示添加 <strong>VPN 配置</strong>，点击允许。</li>
+  <li>打开 App (以 ClashMi 为例) → 点击 "Profiles" (配置)。</li>
+  <li>点击右上角 "+" → 选择 "URL" (从链接导入)。</li>
+  <li>粘贴您的订阅链接，保存。</li>
+  <li>返回首页，点击 "Start" (启动)。首次连接会提示添加 <strong>VPN 配置</strong>，点击"允许"。</li>
 </ol>
 
+<figure class="figure text-center my-3">
+    <img src="" class="figure-img img-fluid rounded shadow-sm" alt="ClashMi iOS 客户端截图" style="max-height: 500px;">
+    <figcaption class="figure-caption">ClashMi 的配置导入界面 (示例)</figcaption>
+</figure>
 
 <h3>常见问题（iOS）</h3>
 <ul>
@@ -354,7 +375,11 @@ export HTTPS_PROXY=http://127.0.0.1:7890
 curl https://www.google.com -I
 </code></pre>
 
-
+<figure class="figure text-center my-3">
+    <img src="" class="figure-img img-fluid rounded shadow-sm" alt="Clash Verge 代理模式选择截图">
+    <figcaption class="figure-caption">在 "Proxies" 标签页选择 "Rule" (规则) 模式 (示例)</figcaption>
+</figure>
+            
 <h3>常见问题（Linux）</h3>
 <ul>
   <li><strong>系统代理不生效：</strong>检查桌面环境的网络代理设置；必要时以 <code>iptables</code> 或 <code>systemd</code> 服务方式处理。</li>
