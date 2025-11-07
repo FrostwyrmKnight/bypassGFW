@@ -123,6 +123,18 @@
             font-weight: 700;
             line-height: 1.4;
         }
+
+        /* --- 【已添加】修复标题链接样式 --- */
+        .post-card h2 a {
+            color: inherit; /* 继承 h2 的 #0078d4 颜色 */
+            text-decoration: none; /* 去掉下划线 */
+            transition: color 0.3s;
+        }
+        .post-card h2 a:hover {
+            color: #0063b1; /* 鼠标悬停时变色，和“阅读全文”按钮保持一致 */
+        }
+        /* --- 修复结束 --- */
+
         .post-card p { 
             color: #666;
             line-height: 1.7;
@@ -178,13 +190,11 @@
     </style>
 </head>
 <body>
-    <!-- Header -->
     <header>
         <h1>ByPass GFW</h1>
         <p>翻墙技术指南 | 深度讨论VPN、翻墙工具、代理、网络隐私和突破网络审查</p>
     </header>
     
-    <!-- Main Content -->
     <main>
         <section>
             <h2 class="section-title">📚 最新文章</h2>
@@ -197,8 +207,8 @@
                     </div>
                     
                     <h2>
-    <a href="/bypassGFW/articles/clash-tutorial/">2025年 全平台Clash客户端下载配置新手教程</a>
-</h2>
+                        <a href="/bypassGFW/articles/clash-tutorial/">2025年 全平台Clash客户端下载配置新手教程</a>
+                    </h2>
                     
                     <p>完整的 Clash 系列客户端 安装和配置教程。包含所有平台支持、详细的图文步骤、常见问题解决方案。适合零基础用户快速掌握 Clash 代理工具的使用。</p>
                     
@@ -214,7 +224,6 @@
         </section>
     </main>
     
-    <!-- Footer -->
     <footer>
         <div class="container">
             <p>&copy; 2025 ByPass GFW. All rights reserved.</p>
