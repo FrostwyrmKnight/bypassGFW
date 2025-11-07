@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025年 Clash for Windows 新手教程 - ByPass GFW</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; }
+        body { 
+            background: #f8f9fa;
+            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        header { 
+            background: linear-gradient(135deg, #0078d4 0%, #0063b1 100%);
+            color: white;
+            border-bottom: none;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+        header h1 { color: white; text-shadow: none; font-size: 2rem; }
+        nav { background: white; padding: 1rem 0; margin-bottom: 2rem; border-bottom: 1px solid #e0e0e0; }
+        nav a { color: #0078d4; text-decoration: none; margin: 0 1rem; }
+        nav a:hover { color: #0063b1; }
+        main { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+        article { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 3rem; margin-bottom: 3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        article h1 { color: #0078d4; font-size: 2.2rem; margin-bottom: 1rem; }
+        article h2 { color: #0078d4; font-size: 1.8rem; margin-top: 2.5rem; margin-bottom: 1rem; border-left: 4px solid #0078d4; padding-left: 1rem; }
+        article h3 { color: #0063b1; font-size: 1.3rem; margin-top: 1.5rem; }
+        article p { line-height: 1.8; margin-bottom: 1rem; color: #555; }
+        article ul, article ol { margin-left: 2rem; margin-bottom: 1.5rem; }
+        article li { margin-bottom: 0.8rem; color: #555; }
+        article strong { color: #0078d4; }
+        article code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; color: #d73a49; border: 1px solid #e0e0e0; }
+        article pre { background: #f5f5f5; padding: 1.5rem; border-radius: 8px; border-left: 4px solid #0078d4; overflow-x: auto; margin-bottom: 1.5rem; }
+        article pre code { background: none; padding: 0; border: none; color: #333; }
+        
+        /* 表格 */
+        table { width: 100%; margin: 2rem 0; border-collapse: collapse; }
+        table th { background: #f0f0f0; color: #0078d4; padding: 1rem; text-align: left; border: 1px solid #e0e0e0; font-weight: 600; }
+        table td { padding: 0.8rem 1rem; border: 1px solid #e0e0e0; color: #555; }
+        table tr:hover { background: #f9f9f9; }
+        
+        /* 推荐区块 */
+        .recommendation { background: linear-gradient(135deg, #f0f8ff 0%, #e6f2ff 100%); border: 2px solid #0078d4; border-radius: 8px; padding: 2rem; margin: 3rem 0; }
+        .recommendation h2 { color: #0078d4; margin-top: 0; border-left: 0; padding-left: 0; }
+        .recommendation h3 { color: #0063b1; }
+        .recommendation strong { color: #0078d4; }
+        .recommendation .feature { display: flex; gap: 1rem; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(0, 120, 212, 0.2); }
+        .recommendation .feature-icon { font-size: 2rem; min-width: 50px; }
+        .recommendation .feature-content h4 { color: #0078d4; margin-bottom: 0.5rem; }
+        .recommendation .feature-content p { color: #666; margin: 0; }
+        
+        .cta-btn { 
+            display: inline-block; 
+            background: #0078d4;
+            color: white;
+            padding: 1rem 2.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-top: 1.5rem;
+            transition: all 0.3s;
+        }
+        .cta-btn:hover { 
+            background: #0063b1;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .back-link { margin-bottom: 2rem; }
+        .back-link a { color: #0078d4; text-decoration: none; }
+        .back-link a:hover { color: #0063b1; }
+        
+        footer { background: white; border-top: 1px solid #e0e0e0; padding: 2rem 0; text-align: center; margin-top: 4rem; }
+        
+        @media (max-width: 768px) {
+            article { padding: 1.5rem; }
+            article h1 { font-size: 1.5rem; }
+            main { padding: 0 1rem; }
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🔐 ByPass GFW</h1>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <a href="/bypassGFW/">← 返回首页</a>
+        </div>
+    </nav>
+    
+    <main>
+        <article>
+            <h1>2025年 Clash for Windows 新手教程：Clash Verge 最全图文指南</h1>
+            <p style="color: #888; font-size: 0.95rem;">📅 2025年11月 | 💬 完整教程</p>
+            
+            <h2>前言</h2>
+            <p>欢迎来到这份"手把手"教程。如果您是第一次接触"翻墙"或"科学上网"，可能会听到 <code>Clash</code> 这个词。但网上教程繁杂，版本众多（Clash for Windows、Clash Verge、Meta...），常常让新手感到困惑。</p>
+            <p>别担心。本教程将使用目前<strong>最稳定、最受推荐</strong>的 Clash 客户端——<strong>Clash Verge</strong>——作为演示。我们将用最简单的图文步骤，带您从零开始，直到您能成功访问全球互联网。</p>
+            
+            <h2>📚 本教程将覆盖</h2>
+            <ol>
+                <li>Clash 是什么？（小白必看）</li>
+                <li>如何安全下载和安装 Clash Verge？</li>
+                <li>如何添加"订阅链接"并更新节点？</li>
+                <li>如何开启代理并选择"模式"？</li>
+                <li>推荐使用高质量的 VPN 服务商</li>
+            </ol>
+            
+            <h2>1️⃣ Clash 是什么？（工具 vs 燃料）</h2>
+            <p>在开始之前，我们必须搞懂一个概念，这能帮您理解 90% 的问题：</p>
+            <table>
+                <tr>
+                    <th>概念</th>
+                    <th>说明</th>
+                    <th>类比</th>
+                </tr>
+                <tr>
+                    <td><strong>Clash Verge</strong></td>
+                    <td>这是一个"工具"（客户端软件）。它本身<strong>不提供</strong>翻墙能力。</td>
+                    <td>超级跑车（没有油）</td>
+                </tr>
+                <tr>
+                    <td><strong>订阅链接</strong></td>
+                    <td>这是"燃料"（节点服务）。您需要付费购买。它包含服务器节点信息。</td>
+                    <td>高级汽油</td>
+                </tr>
+            </table>
+            <p><strong>💡 核心概念：本教程教您如何使用工具（Clash），但您需要从服务商那里获取燃料（订阅链接）。</strong></p>
+            
+            <h2>2️⃣ Clash 客户端 工作原理示意</h2>
+            <pre><code>┌─────────────┐       加密         ┌──────────────┐       ┌──────────┐
+│  您的电脑   │ ──────────────→ │ Clash 客户端  │ ────→ │ VPN节点  │ ───→ 互联网
+│  (浏览器)   │ ←───────────── │  (代理工具)   │ ←──── │ 服务器   │ ←─── 
+└─────────────┘   解密响应       └──────────────┘       └──────────┘
+
+✅ 您的真实 IP 被隐藏
+✅ 网络流量被加密
+✅ 可以访问被限制的网站</code></pre>
+
+                        <!-- 全平台 Clash 客户端教程（新增） -->
+<h2>3️⃣ 全平台 Clash 客户端教程总览</h2>
+<p>不同平台的最佳实践略有差异。下面提供 Windows、macOS、Android、iOS、Linux 的“从安装到使用”的完整流程，并附截图占位。把图片放到 <code>/assets/images/clash/</code> 路径下，按文件名引用即可。</p>
+
+<table>
+  <tr>
+    <th>平台</th>
+    <th>推荐客户端</th>
+    <th>适配特点</th>
+    <th>难度</th>
+    <th>适合人群</th>
+  </tr>
+  <tr>
+    <td><strong>Windows</strong></td>
+    <td>Clash Verge</td>
+    <td>GUI 完整、系统代理稳定</td>
+    <td>低</td>
+    <td>新手/办公主力</td>
+  </tr>
+  <tr>
+    <td><strong>macOS</strong></td>
+    <td>Clash Verge 或 ClashX</td>
+    <td>菜单栏便捷、规则切换快</td>
+    <td>低-中</td>
+    <td>Mac 用户、开发者</td>
+  </tr>
+  <tr>
+    <td><strong>Android</strong></td>
+    <td>Clash Meta for Android (ClashMeta)</td>
+    <td>分应用代理、后台稳定</td>
+    <td>中</td>
+    <td>移动主力、分流需求</td>
+  </tr>
+  <tr>
+    <td><strong>iOS/iPadOS</strong></td>
+    <td>Stash 或 Shadowrocket</td>
+    <td>规则强、连接稳定（付费）</td>
+    <td>中</td>
+    <td>苹果移动用户</td>
+  </tr>
+  <tr>
+    <td><strong>Linux</strong></td>
+    <td>Clash Verge (AppImage) 或命令行</td>
+    <td>可系统级或仅终端代理</td>
+    <td>中-高</td>
+    <td>服务器/开发者</td>
+  </tr>
+</table>
+            <!-- Windows 教程 -->
+            <h2>4️⃣  Windows 教程 下载与安装 Clash Verge</h2>
+            <p>由于原版 <code>Clash for Windows</code> 已停止更新，<code>Clash Verge</code> 是目前公认的最佳替代品。</p>
+            
+            <h3>步骤 1：访问 GitHub 下载</h3>
+            <p>Clash Verge 的官方下载地址在 GitHub 上。</p>
+            <ul>
+                <li><strong>官方发布页：</strong> <code>https://github.com/Meta-Repo/clash-meta/releases</code></li>
+                <li>⚠️ 注意：GitHub 在国内可能访问缓慢，您可能需要一个临时梯子来下载。</li>
+            </ul>
+            
+            <h3>步骤 2：选择正确的版本</h3>
+            <p>在最新的 Release 页面，找到 <code>Assets</code> 部分，下载适用于 Windows 的版本：</p>
+            <table>
+                <tr>
+                    <th>您的电脑类型</th>
+                    <th>下载文件</th>
+                    <th>说明</th>
+                </tr>
+                <tr>
+                    <td><strong>64 位</strong>（推荐）</td>
+                    <td><code>Clash.Verge_x.x.x_x64-setup.msi</code></td>
+                    <td>绝大多数新电脑都是 64 位</td>
+                </tr>
+                <tr>
+                    <td><strong>32 位</strong></td>
+                    <td><code>Clash.Verge_x.x.x_x86-setup.msi</code></td>
+                    <td>较老的电脑</td>
+                </tr>
+            </table>
+            
+            <h3>步骤 3：安装</h3>
+            <p>下载后，双击 <code>.msi</code> 文件。和安装普通软件一样，一路点击"下一步"即可完成。安装完成后，Clash Verge 会自动运行，并在您电脑右下角的"任务栏"中显示一个图标。</p>
+            
+            <h2>5️⃣ 导入"订阅链接"（给跑车加油）</h2>
+            <p>这是最关键的一步。您需要从您的服务商那里获得"订阅链接"。</p>
+            
+            <h3>步骤 1：复制订阅链接</h3>
+            <p>登录您的服务商网站，找到"复制订阅地址"的按钮，点击它。订阅链接通常看起来像：</p>
+            <pre><code>https://subscribe.example.com/api/v1/xxx?token=abcdef123456</code></pre>
+            
+            <h3>步骤 2：导入到 Clash Verge</h3>
+            <ol>
+                <li>打开 Clash Verge 的主界面（双击任务栏图标）</li>
+                <li>点击左侧菜单栏的 <strong>"Profiles"</strong> (订阅配置)</li>
+                <li>在顶部的输入框中，<strong>粘贴您的订阅链接</strong></li>
+                <li>点击右侧的 <strong>"Import"</strong> (导入) 按钮</li>
+            </ol>
+            <p>✅ 导入成功后，您会在下方看到一个卡片，显示订阅名称和节点数量。Clash Verge 会自动下载节点信息。</p>
+
+
+
+<!-- macOS 教程 -->
+<h2>6️⃣ macOS 教程：Clash Verge 与 ClashX</h2>
+<h3>步骤 1：下载客户端</h3>
+<ul>
+  <li><strong>Clash Verge (macOS)：</strong>下载最新 <code>.dmg</code> 或 <code>.zip</code> 包（Apple Silicon/Intel 对应版本）。</li>
+  <li><strong>ClashX：</strong>在官方发布页下载 <code>ClashX.dmg</code>。</li>
+</ul>
+
+
+<h3>步骤 2：安装与首次运行</h3>
+<ol>
+  <li><strong>安装：</strong>将 App 拖入“应用程序”文件夹，若出现“来自不受信任开发者”提示，前往“系统设置 → 隐私与安全”允许。</li>
+  <li><strong>首次启动：</strong>授予网络权限；菜单栏会出现图标（闪电/小猫图标）。</li>
+</ol>
+
+
+<h3>步骤 3：导入订阅与更新</h3>
+<ol>
+  <li>打开主界面，进入 <strong>Profiles</strong>（或“配置”）。</li>
+  <li>粘贴服务商提供的 <strong>订阅链接</strong>，点击 <strong>Import / Update</strong>。</li>
+</ol>
+
+
+<h3>步骤 4：系统代理与模式</h3>
+<ul>
+  <li><strong>打开系统代理：</strong>Settings → 勾选 <strong>System Proxy</strong>。</li>
+  <li><strong>选择模式：</strong>Proxies → <strong>Mode: Rule</strong>（推荐）。</li>
+</ul>
+
+
+<h3>常见问题（macOS）</h3>
+<ul>
+  <li><strong>无法启用系统代理：</strong>检查“网络”设置是否被 MDM 管理；重启 App 或更换网络位置。</li>
+  <li><strong>Safari 仍直连：</strong>清理代理缓存，确认 Wi‑Fi/以太网服务都启用系统代理。</li>
+</ul>
+
+<!-- Android 教程 -->
+<h2>7️⃣ Android 教程：Clash Meta for Android</h2>
+<h3>步骤 1：下载安装</h3>
+<ul>
+  <li>下载安装 <strong>Clash Meta for Android (ClashMeta)</strong> 的 <code>.apk</code>（ARM64 常见）。如遇“未知来源”提示，开启安装权限。</li>
+</ul>
+
+
+<h3>步骤 2：导入订阅</h3>
+<ol>
+  <li>打开 App → <strong>Profiles/订阅</strong> → 添加 <strong>URL</strong> 订阅。</li>
+  <li>点击 <strong>更新</strong>，拉取节点。</li>
+</ol>
+
+
+<h3>步骤 3：开启服务与分应用代理</h3>
+<ul>
+  <li><strong>启动：</strong>首页点击 <strong>Start</strong> 启用服务，如需始终可用，开启“保持后台”。</li>
+  <li><strong>分应用代理：</strong>进入 <strong>Rules/Bypass</strong> 或 <strong>Per-App</strong>，给国内 App 设为直连，国际 App 走代理。</li>
+</ul>
+
+
+<h3>常见问题（Android）</h3>
+<ul>
+  <li><strong>后台被杀：</strong>在系统“电池优化”中允许后台运行，锁定任务卡片。</li>
+  <li><strong>某些 App 仍直连：</strong>检查分应用代理列表及规则优先级。</li>
+</ul>
+
+<!-- iOS/iPadOS 教程 -->
+<h2>8️⃣ iOS/iPadOS 教程：Stash 或 Shadowrocket</h2>
+<h3>步骤 1：App 获取</h3>
+<ul>
+  <li><strong>Stash：</strong>在 App Store 购买并安装。</li>
+  <li><strong>Shadowrocket：</strong>部分地区商店上架（付费），安装后可用。</li>
+</ul>
+
+
+<h3>步骤 2：导入订阅与启用</h3>
+<ol>
+  <li>打开 App → <strong>Subscriptions/配置</strong> → 添加 <strong>URL</strong>。</li>
+  <li>选择 <strong>Rule</strong> 模式，首次连接会提示添加 <strong>VPN 配置</strong>，点击允许。</li>
+</ol>
+
+
+<h3>常见问题（iOS）</h3>
+<ul>
+  <li><strong>连接频繁断开：</strong>关闭“低数据模式”，检查蜂窝数据与后台允许。</li>
+  <li><strong>无法添加配置：</strong>在“设置 → 通用 → VPN 与设备管理”中手动删除旧配置后重试。</li>
+</ul>
+
+<!-- Linux 教程 -->
+<h2>9️⃣ Linux 教程：Clash Verge 或命令行</h2>
+<h3>方案 A：Clash Verge（桌面环境）</h3>
+<ol>
+  <li>下载 <strong>AppImage</strong> 或对应包，赋予执行权限：<code>chmod +x Clash.Verge.AppImage</code>。</li>
+  <li>运行后在 <strong>Profiles</strong> 导入订阅，<strong>Settings</strong> 中启用系统代理（GNOME/KDE 通常生效）。</li>
+</ol>
+
+
+<h3>方案 B：命令行（服务器/轻量环境）</h3>
+<ol>
+  <li>安装 <strong>clash-meta</strong> 核心，下载订阅后生成 <code>config.yaml</code>。</li>
+  <li>启动：<code>clash-meta -f ~/.config/clash-meta/config.yaml</code>，默认本地端口 <code>127.0.0.1:7890</code>。</li>
+  <li>为终端走代理：在 Shell 中设置环境变量 <code>HTTP_PROXY</code> 与 <code>HTTPS_PROXY</code>。</li>
+</ol>
+<pre><code># 终端代理示例 (bash/zsh)
+export HTTP_PROXY=http://127.0.0.1:7890
+export HTTPS_PROXY=http://127.0.0.1:7890
+# 验证
+curl https://www.google.com -I
+</code></pre>
+
+
+<h3>常见问题（Linux）</h3>
+<ul>
+  <li><strong>系统代理不生效：</strong>检查桌面环境的网络代理设置；必要时以 <code>iptables</code> 或 <code>systemd</code> 服务方式处理。</li>
+  <li><strong>仅终端有效：</strong>桌面浏览器可能未读取系统代理，手动在浏览器内设置为 <code>127.0.0.1:7890</code>。</li>
+</ul>
+
+<!-- 截图清单与命名（占位说明） -->
+<h2>🔟 截图与资源清单（占位）</h2>
+<ul>
+  <li><strong>macOS：</strong>macos_release_page.png、macos_first_launch.png、macos_profiles_import.png、macos_system_proxy_rule.png</li>
+  <li><strong>Android：</strong>android_install.png、android_profiles.png、android_per_app.png</li>
+  <li><strong>iOS：</strong>ios_store.png、ios_subscribe.png</li>
+  <li><strong>Linux：</strong>linux_verge.png、linux_cli.png</li>
+</ul>
+<p style="color:#888;font-size:0.9rem;">将上述图片放置到 <code>/assets/images/clash/</code> 下，并保持文件名一致，之后再替换为你的实际截图。</p>
+
+
+            
+            <h2>1️⃣1️⃣ 代理模式对比</h2>
+            <table>
+                <tr>
+                    <th>模式</th>
+                    <th>说明</th>
+                    <th>速度</th>
+                    <th>流量</th>
+                    <th>推荐</th>
+                </tr>
+                <tr>
+                    <td><strong>Rule（规则）</strong></td>
+                    <td>智能分流。国内网站直连，国外网站走代理</td>
+                    <td>⚡⚡⚡</td>
+                    <td>💰 省</td>
+                    <td>✅ 强烈推荐</td>
+                </tr>
+                <tr>
+                    <td><strong>Global（全局）</strong></td>
+                    <td>所有流量走代理，包括国内网站</td>
+                    <td>⚡</td>
+                    <td>💸 多</td>
+                    <td>⚠️ 测试用</td>
+                </tr>
+                <tr>
+                    <td><strong>Direct（直连）</strong></td>
+                    <td>关闭代理，所有流量直连</td>
+                    <td>⚡⚡⚡</td>
+                    <td>✅ 无</td>
+                    <td>❌ 无法翻墙</td>
+                </tr>
+            </table>
+            
+            <h2>1️⃣2️⃣ 开启代理，畅游网络！</h2>
+            
+            <h3>步骤 1：开启"系统代理"</h3>
+            <ol>
+                <li>点击左侧菜单栏的 <strong>"Settings"</strong> (设置)</li>
+                <li>找到 <strong>"System Proxy"</strong> (系统代理) 选项</li>
+                <li>点击开关，使其变为<strong>绿色/开启状态</strong></li>
+            </ol>
+            
+            <h3>步骤 2：选择代理模式</h3>
+            <ul>
+                <li>在左侧菜单栏点击 <strong>"Proxies"</strong> (代理)</li>
+                <li>在页面顶部的 <strong>"Mode"</strong> 下拉菜单中，选择 <strong>"Rule"</strong>（推荐）</li>
+            </ul>
+            
+            <h3>步骤 3：选择节点</h3>
+            <p>在 Proxies 页面，您会看到一个 "Proxy" 卡片。对于新手：</p>
+            <ul>
+                <li>直接选择"自动选择"或"负载均衡" → Clash 会自动选择最快的节点</li>
+                <li>或手动选择特定地区（香港、日本、美国等）</li>
+            </ul>
+            
+            <h3>步骤 4：测试连接</h3>
+            <p>打开浏览器，访问 <code>https://www.google.com</code> 或 <code>https://www.youtube.com</code></p>
+            <p>✅ 能打开 = 成功！您已经掌握了 Clash！</p>
+            
+            <h2>⚠️ 常见问题解决</h2>
+            <table>
+                <tr>
+                    <th>问题</th>
+                    <th>原因</th>
+                    <th>解决方案</th>
+                </tr>
+                <tr>
+                    <td>导入后没有节点</td>
+                    <td>订阅链接过期或网络问题</td>
+                    <td>重新复制最新链接重新导入</td>
+                </tr>
+                <tr>
+                    <td>网速很慢</td>
+                    <td>节点距离远/负载高</td>
+                    <td>切换到其他节点或选择"自动选择"</td>
+                </tr>
+                <tr>
+                    <td>某些网站无法访问</td>
+                    <td>规则模式可能被绕过</td>
+                    <td>临时切换到 Global 模式测试</td>
+                </tr>
+                <tr>
+                    <td>系统代理不生效</td>
+                    <td>防火墙或权限问题</td>
+                    <td>以管理员身份运行 Clash Verge</td>
+                </tr>
+            </table>
+            
+            <h2>📊 安全建议</h2>
+            <ol>
+                <li><strong>使用正规服务商</strong> - 避免免费、不知名的代理服务</li>
+                <li><strong>定期更新</strong> - 及时更新 Clash 和系统</li>
+                <li><strong>保护链接</strong> - 不要公开分享您的订阅链接</li>
+                <li><strong>监控流量</strong> - 定期检查代理流量消耗</li>
+            </ol>
+            
+            <!-- 推荐区块 -->
+            <div class="recommendation">
+                <h2>🚀 下一步：选择高速稳定的 VPN 服务</h2>
+                <p>恭喜！您已经完全掌握了 Clash Verge 这款强大的工具。<strong>但工具本身无法让您翻墙——您还需要一个优质的 VPN 服务商（即上面提到的"订阅链接"来源）。</strong></p>
+                
+                <p style="margin-top: 1.5rem;">如果您是新手，还在为"去哪里找订阅"、"担心服务商跑路"或"节点速度慢"而烦恼，我们推荐您考虑 <strong>尼奥网络 (NeoNet)</strong>。</p>
+                
+                <h3>为什么选择尼奥网络？</h3>
+                
+                <div class="feature">
+                    <div class="feature-icon">🚀</div>
+                    <div class="feature-content">
+                        <h4>线路高端，拒绝拥堵</h4>
+                        <p>采用 CNGIA2 高端线路，确保晚高峰也能秒开 4K 视频，拒绝 QoS 干扰</p>
+                    </div>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">🎬</div>
+                    <div class="feature-content">
+                        <h4>解锁全球流媒体</h4>
+                        <p>完美支持 Netflix、Disney+、ChatGPT、YouTube 等全球主流平台，自动配置原生 IP</p>
+                    </div>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <div class="feature-content">
+                        <h4>零风险试用</h4>
+                        <p>新用户注册可享受免费 2GB 试用。立刻用刚学到的 Clash 知识，亲自测试尼奥网络的速度和稳定性</p>
+                    </div>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">🛡️</div>
+                    <div class="feature-content">
+                        <h4>全平台支持</h4>
+                        <p>支持 Windows、Mac、iOS、Android 等所有主流平台，一账号多设备同时在线</p>
+                    </div>
+                </div>
+                
+                <p style="margin-top: 1.5rem;"><strong>现在就开始您的 VPN 之旅：</strong></p>
+                <a href="https://home.neonets.top" class="cta-btn" target="_blank">🎯 访问尼奥网络，领取免费试用</a>
+                
+                <p style="margin-top: 1.5rem; font-size: 0.9rem; color: #888;">
+                    💡 <strong>提示：</strong>一个好的开始至关重要。尼奥网络凭借稳定的线路和优质的服务，已经成为众多用户的首选。
+                </p>
+            </div>
+            
+            <h2>📚 总结</h2>
+            <p>通过本教程，您已经学会了：</p>
+            <ul>
+                <li>✅ Clash 和 VPN 的核心概念</li>
+                <li>✅ 在 Windows 上正确安装 Clash Verge</li>
+                <li>✅ 导入和配置代理节点</li>
+                <li>✅ 选择合适的代理模式</li>
+                <li>✅ 解决常见问题</li>
+            </ul>
+            <p><strong>现在，您已经拥有了翻墙的工具。下一步是找一个好的"燃料"——即优质的 VPN 服务。尼奥网络就是一个很好的选择。</strong></p>
+            
+            <p style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(0, 255, 200, 0.2); color: #888; font-size: 0.9rem;">
+                📝 <strong>更新时间：</strong> 2025年11月<br>
+                📝 <strong>教程版本：</strong> v1.0<br>
+                ⚖️ <strong>免责声明：</strong> 本教程仅供教育和研究之用。请遵守当地法律法规，合法使用代理工具。
+            </p>
+        </article>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ByPass GFW. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
