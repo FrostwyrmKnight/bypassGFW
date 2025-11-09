@@ -1,12 +1,12 @@
 # ByPass GFW - 翻墙技术指南
 
-[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?logo=github)](https://frostwyrmknight.github.io/bypassGFW/)
+[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?logo=github)](https://fkcosmos.github.io/bypassGFW/)
 
 深度讨论VPN、翻墙工具、代理、网络隐私和突破网络审查的技术方案
 
 ## 📚 文章列表
 
-### [机场 vs 传统VPN：为什么国际大厂VPN在中国水土不服？](https://frostwyrmknight.github.io/bypassGFW/articles/vs/index.html)
+### [机场 vs 传统VPN：为什么国际大厂VPN在中国水土不服？](https://fkcosmos.github.io/bypassGFW/articles/vs/index.html)
 
 深度分析机场（Trojan/VLESS）与传统VPN（OpenVPN/WireGuard）的根本区别，揭示为什么伪装协议是更适合中国的选择。
 
@@ -20,11 +20,11 @@
 
 **阅读时间：** 12分钟
 
-[📖 阅读全文 →](https://frostwyrmknight.github.io/bypassGFW/articles/vs/index.html)
+[📖 阅读全文 →](https://fkcosmos.github.io/bypassGFW/articles/vs/index.html)
 
 ---
 
-### [2025年 全平台Clash客户端下载配置新手教程：Clash系列 最全图文指南](https://frostwyrmknight.github.io/bypassGFW/articles/clash-tutorial/)
+### [2025年 全平台Clash客户端下载配置新手教程：Clash系列 最全图文指南](https://fkcosmos.github.io/bypassGFW/articles/clash-tutorial/)
 
 完整的 Clash 系列客户端 安装和配置教程。
 
@@ -39,7 +39,7 @@
 
 **阅读时间：** 15分钟
 
-[📖 阅读全文 →](https://frostwyrmknight.github.io/bypassGFW/articles/clash-tutorial/)
+[📖 阅读全文 →](https://fkcosmos.github.io/bypassGFW/articles/clash-tutorial/)
 
 ---
 
@@ -70,10 +70,10 @@
 
 | 页面 | 说明 |
 |------|------|
-| [博客首页](https://frostwyrmknight.github.io/bypassGFW/) | 查看所有文章列表 |
-| [Clash 教程](https://frostwyrmknight.github.io/bypassGFW/articles/clash-tutorial/) | 完整的新手教程 |
-| [VPN vs 机场](https://frostwyrmknight.github.io/bypassGFW/articles/vs/index.html) | 深度技术对比 |
-| [GitHub](https://github.com/FrostwyrmKnight/bypassGFW) | 源代码 |
+| [博客首页](https://fkcosmos.github.io/bypassGFW/) | 查看所有文章列表 |
+| [Clash 教程](https://fkcosmos.github.io/bypassGFW/articles/clash-tutorial/) | 完整的新手教程 |
+| [VPN vs 机场](https://fkcosmos.github.io/bypassGFW/articles/vs/index.html) | 深度技术对比 |
+| [GitHub](https://github.com/fkcosmos/bypassGFW) | 源代码 |
 
 ---
 
@@ -100,5 +100,5 @@ MIT License - 详见 [LICENSE](LICENSE)
 ---
 
 **最后更新：** 2025年11月  
-**作者：** FrostwyrmKnight  
+**作者：** fkcosmos  
 **主题：** Clash | VPN | 翻墙技术 | VLESS | Trojan
